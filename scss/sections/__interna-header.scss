@@ -1,0 +1,26 @@
+.interna-header{
+    position: relative;
+    width: 100%;
+    background-size: cover;
+    background-position: center center;
+    
+    &__content{
+        display: flex;
+        align-items: center;
+        height: 250px;
+
+        @media screen and (max-width: $bp-MD){
+            height: 180px;
+        }
+
+        .title{
+            font-size: 70px;
+            font-weight: lighter;
+            color: #fff;
+
+            @media screen and (max-width: $bp-MD){
+                font-size: 46px;
+            }
+        }
+    }
+}
