@@ -2,7 +2,6 @@
     background-color: $color-primary;
     width: 100%;
     padding: 40px 0;
-    
 
     @media screen and (max-width: $bp-MD){
         padding: 26px 0;
@@ -48,7 +47,7 @@
             color: $color-primary;
             margin-bottom: 4px;
             font-weight: bold;
-            font-size: 20px;
+            font-size: 21px;
 
             @media screen and (max-width: 330px){
                 font-size: 15px;
@@ -70,13 +69,13 @@
 
         .close{
             position: absolute;
-            top: 17px;
+            top: 14px;
             right: 23px;
             opacity: 1;
             outline: none !important;
             
             img{
-                width: 10px;
+                width: 8px;
             }
         }
     }
