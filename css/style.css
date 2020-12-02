@@ -1012,6 +1012,66 @@ textarea.form-control {
   }
 }
 
+.equipe-list {
+  padding: 60px 0;
+}
+
+@media screen and (max-width: 768px) {
+  .equipe-list {
+    padding: 40px 0;
+  }
+}
+
+.equipe-list__item {
+  display: block;
+  position: relative;
+  width: 100%;
+  height: 390px;
+  overflow: hidden;
+}
+
+@media screen and (max-width: 768px) {
+  .equipe-list__item {
+    height: 330px;
+  }
+}
+
+.equipe-list__item:hover img {
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  -o-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
+.equipe-list__item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center center;
+  transition: all 0.4s;
+}
+
+.equipe-list__item .nome {
+  text-align: center;
+  transform: translateY(-100%);
+  max-width: 320px;
+  margin: 0 auto;
+  padding-bottom: 20px;
+}
+
+.equipe-list__item .nome span {
+  display: inline;
+  background-color: #B89F80;
+  color: #161D38;
+  text-align: center;
+  font-weight: bold;
+  font-size: 24px;
+  padding: 4px 24px;
+  -webkit-box-decoration-break: clone;
+  box-decoration-break: clone;
+}
+
 body {
   position: relative;
   margin: 0;
