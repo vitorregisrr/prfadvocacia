@@ -21,6 +21,13 @@
             @media screen and (max-width: $bp-MD){
                 font-size: 46px;
             }
+
+
+            &.md-sm{
+                @media screen and (max-width: $bp-MD){
+                    font-size: 38px;
+                }
+            }
         }
     }
 }

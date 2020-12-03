@@ -1060,6 +1060,12 @@ textarea.form-control {
   }
 }
 
+@media screen and (max-width: 768px) {
+  .interna-header__content .title.md-sm {
+    font-size: 38px;
+  }
+}
+
 .equipe-list {
   padding: 60px 0;
 }
@@ -1489,7 +1495,7 @@ textarea.form-control {
 
 .areasatuacao__item .img {
   position: relative;
-  height: 240px;
+  height: 230px;
   width: 100%;
   overflow: hidden;
   z-index: 2;
@@ -1497,7 +1503,7 @@ textarea.form-control {
 
 @media screen and (max-width: 768px) {
   .areasatuacao__item .img {
-    height: 210px;
+    height: 170px;
   }
 }
 
@@ -1544,6 +1550,65 @@ textarea.form-control {
 @media screen and (max-width: 768px) {
   .areasatuacao__item .caption .title {
     font-size: 26px;
+  }
+}
+
+.areasatuacao__item .caption .title.md {
+  font-size: 40px;
+}
+
+@media screen and (max-width: 768px) {
+  .areasatuacao__item .caption .title.md {
+    font-size: 24px;
+  }
+}
+
+.areasatuacao__content {
+  padding-top: 18px;
+  max-width: 460px;
+}
+
+@media screen and (max-width: 768px) {
+  .areasatuacao__content {
+    padding-top: 0px;
+  }
+}
+
+.areasatuacao__content .title {
+  color: #161D38;
+  font-size: 38px;
+  font-weight: lighter;
+  padding: 0 3px;
+}
+
+@media screen and (max-width: 768px) {
+  .areasatuacao__content .title {
+    font-size: 30px;
+  }
+}
+
+.areasatuacao__content .desc {
+  font-size: 19px;
+  text-align: justify;
+}
+
+@media screen and (max-width: 768px) {
+  .areasatuacao__content .desc {
+    font-size: 17px;
+    padding-bottom: 15px;
+  }
+}
+
+.areasatuacao__content hr {
+  border-color: #B89F80;
+  background-color: #B89F80;
+  height: .2px;
+  margin: 30px 0;
+}
+
+@media screen and (max-width: 768px) {
+  .areasatuacao__content hr {
+    margin: 22px 0;
   }
 }
 
