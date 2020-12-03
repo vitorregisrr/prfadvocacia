@@ -23,6 +23,17 @@
             margin-top: 10px;
         }
         
+        h1{
+            color: $color-primary;
+            font-weight: 300;
+            font-size: 50px;
+
+            @media screen and (max-width: $bp-MD){
+                font-size: 30px;
+                margin-bottom: 10px;
+            }
+        }
+
         h2{
             color: $color-secondary;
             font-weight: bold;
@@ -36,12 +47,43 @@
             }
         }
 
+        h3{
+            color: $color-secondary;
+            font-weight: bold;
+            font-size: 22px;
+            line-height: 1.5;
+            margin-bottom: 35px;
+            margin-top: 32px;
+
+            @media screen and (max-width: $bp-MD){
+                font-size: 17px;
+                margin-bottom: 20px;
+                margin-top: 15px;
+            }
+        }
+
         p{
             font-size: 20px;
             line-height: 1.2;
 
             @media screen and (max-width: $bp-MD){
                 font-size: 16px;
+            }
+        }
+
+        hr{
+            background-color: $color-secondary;
+            border-color: $color-secondary;
+            height: 6px;
+            width: 90px;
+            margin: unset;
+            margin-top: 46px;
+
+            @media screen and (max-width: $bp-MD){
+                height: 4px;
+                margin-bottom: 20px;
+                margin-top: 24px;
+                width: 70px;
             }
         }
     }

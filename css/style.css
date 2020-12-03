@@ -955,6 +955,19 @@ textarea.form-control {
   }
 }
 
+.interna-content__markup h1 {
+  color: #161D38;
+  font-weight: 300;
+  font-size: 50px;
+}
+
+@media screen and (max-width: 768px) {
+  .interna-content__markup h1 {
+    font-size: 30px;
+    margin-bottom: 10px;
+  }
+}
+
 .interna-content__markup h2 {
   color: #B89F80;
   font-weight: bold;
@@ -970,6 +983,23 @@ textarea.form-control {
   }
 }
 
+.interna-content__markup h3 {
+  color: #B89F80;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 1.5;
+  margin-bottom: 35px;
+  margin-top: 32px;
+}
+
+@media screen and (max-width: 768px) {
+  .interna-content__markup h3 {
+    font-size: 17px;
+    margin-bottom: 20px;
+    margin-top: 15px;
+  }
+}
+
 .interna-content__markup p {
   font-size: 20px;
   line-height: 1.2;
@@ -978,6 +1008,24 @@ textarea.form-control {
 @media screen and (max-width: 768px) {
   .interna-content__markup p {
     font-size: 16px;
+  }
+}
+
+.interna-content__markup hr {
+  background-color: #B89F80;
+  border-color: #B89F80;
+  height: 6px;
+  width: 90px;
+  margin: unset;
+  margin-top: 46px;
+}
+
+@media screen and (max-width: 768px) {
+  .interna-content__markup hr {
+    height: 4px;
+    margin-bottom: 20px;
+    margin-top: 24px;
+    width: 70px;
   }
 }
 
