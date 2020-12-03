@@ -10,35 +10,9 @@
         range: jQuery.validator.format("Por favor insira entre {0} e {1} caractéres.")
     });
     
-    
+
     // Formulário acessar (LOGIN)
-    $("#form-newsletter").validate({
-        rules: {
-            email: {
-                required: true,
-                email: true
-            },
-            nome: {
-                required: true,
-                minLength: 6
-            },
-        },
-    
-        messages: {
-            password: {
-                required: "Digite seu nome",
-                minLength: "Seu nome deve ter no mínimo 4 caractéres"
-            },
-    
-            email: {
-                required: 'Digite seu email',
-                email: 'Email inválido'
-            },
-        }
-    });
-    
-    // Formulário acessar (LOGIN)
-    $("#carreiras-form").validate({
+    $("#form-contato").validate({
         rules: {
             email: {
                 required: true,
@@ -47,12 +21,26 @@
             nome: {
                 required: true,
             },
-            loren: {
+            empresa: {
+                required: true,
+            },
+            telefone: {
+                required: true,
+                minlength: 15
+            },
+            assunto: {
+                required: true,
+            },
+            mensagem: {
                 required: true,
             },
         },
     
         messages: {
+
+            telefone:{
+                minlength: 'Seu número parece estar incompleto.'
+            }
         }
     
     });
